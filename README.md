@@ -4,15 +4,13 @@ Este projeto tem como objetivo realizar o CRUD de filmes e obter o(s) produtor(s
 
 O serviço conta com endpoint's RestFull, testes de integração com MockMvc, persistência de dados com JPA, e documentação de api com Swagger.
 
+Os dados são salvos em memória no banco H2 pela url http://localhost:9098/h2-console/
 
 #### 1) Formas de execução do sistema e testes de integração.
 
-##### Executar com maven
-<code> mvn spring-boot:run</code>
+##### Executar com maven <code> mvn spring-boot:run</code>
 
-##### Executar Jar
-<code> java -jar listMovies-0.0.1-SNAPSHOT.jar [file.csv](file.csv)</code>
-
+##### Executar Jar <code> java -jar listMovies-0.0.1-SNAPSHOT.jar [file.csv](file.csv)</code>
 
 ##### Executar testes
 <code> mvn test</code>
