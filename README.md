@@ -12,7 +12,7 @@ Os dados são salvos em memória no banco H2, e podem ser acessados pela url htt
 
 ##### Executar com maven <code> mvn spring-boot:run</code>
 
-##### Executar jar <code> java -jar [target/listMovies-0.0.1-SNAPSHOT.jar](listMovies-0.0.1-SNAPSHOT.jar) [file.csv](file.csv)</code>
+##### Executar jar <code> java -jar [target/listMovies-0.0.1-SNAPSHOT.jar](listMovies-0.0.1-SNAPSHOT.jar) [listMovies.csv](file.csv)</code>
 
 ##### Executar testes <code> mvn test</code>
 
