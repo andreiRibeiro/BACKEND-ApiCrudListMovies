@@ -4,7 +4,7 @@ Este projeto tem como objetivo realizar o CRUD de filmes e obter o(s) produtor(s
 
 O serviço é executado com SpringBoot e conta com endpoint's RestFull, testes de integração com MockMvc, persistência de dados com JPA, e documentação de api com Swagger.
 
-Os dados são salvos em memória no banco H2 pela url http://localhost:9098/h2-console/
+Os dados são salvos em memória no banco H2, e podem ser acessados pela url http://localhost:9098/h2-console/
 
 É possível carregar os dados no sistema passando como parametro arquivo CSV (não é obrigatório), ou mesmo realizando upload via endpoint da API.
 
