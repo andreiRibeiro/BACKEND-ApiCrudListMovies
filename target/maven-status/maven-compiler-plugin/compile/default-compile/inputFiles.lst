@@ -1,0 +1,14 @@
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/model/ErrorMessageDTO.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/controller/MovieControllerAdvice.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/model/MovieDTO.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/ListMoviesApplication.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/model/MovieResponseDTO.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/entity/MovieEntity.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/repository/MovieRepository.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/core/Rules.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/service/MovieService.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/exception/MovieRulesException.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/model/MovieIntervalResponseDTO.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/configuration/SwaggerConfig.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/exception/MovieValidationException.java
+/home/andrei/Cursos/Texo/listMovies_bkp/src/main/java/br/com/aaribeiro/listMovies/controller/MovieController.java
