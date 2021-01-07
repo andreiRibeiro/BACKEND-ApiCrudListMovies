@@ -12,8 +12,7 @@ Os dados são salvos em memória no banco H2 pela url http://localhost:9098/h2-c
 
 ##### Executar Jar <code> java -jar listMovies-0.0.1-SNAPSHOT.jar [file.csv](file.csv)</code>
 
-##### Executar testes
-<code> mvn test</code>
+##### Executar testes <code> mvn test</code>
 
 #### 2) Arquitetura de funcionamento do sistema.
 ![](img/arquitetura.jpg)
