@@ -20,6 +20,6 @@ Os dados são salvos em memória no banco H2, e podem ser acessados pela url htt
 ![](img/arquitetura.jpg)
 
 #### 3) Interface de documentação
-<code> http://localhost:9098/swagger-ui.html#/movie-controller</code>
+<code> http://localhost:9098/swagger-ui.html#/</code>
 
 ![](img/swagger.png)
