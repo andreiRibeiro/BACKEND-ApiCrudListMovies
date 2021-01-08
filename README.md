@@ -10,11 +10,13 @@ Os dados são salvos em memória no banco H2, e podem ser acessados pela url htt
 
 #### 1) Formas de execução do sistema e testes de integração.
 
-##### Executar com maven <code> mvn spring-boot:run</code>
+   ##### Executar com Maven <code> mvn spring-boot:run</code>
 
-##### Executar jar <code> java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
+   ##### Executar com Jar <code> java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
 
-##### Executar testes <code> mvn test</code>
+   ##### Executar com Docker image  <code> java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
+
+   ##### Executar testes integração <code> mvn test</code>
 
 #### 2) Arquitetura de funcionamento do sistema.
 ![](img/arquitetura.jpg)
