@@ -19,7 +19,8 @@ Os dados são salvos em memória no banco H2, e podem ser acessados pela url htt
    ##### Executar com Docker image
    ><code>sudo docker pull andreiaar/public:list_movies</code> <code>sudo docker run -p 9098 andreiaar/public:list_movies</code>
 
-   ##### Executar testes integração <code> mvn test</code>
+   ##### Executar testes integração 
+   ><code> mvn test</code>
 
 #### 2) Arquitetura de funcionamento do sistema.
 ![](img/arquitetura.jpg)
