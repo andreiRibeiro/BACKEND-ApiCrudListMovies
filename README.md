@@ -12,11 +12,12 @@ Os dados são salvos em memória no banco H2, e podem ser acessados pela url htt
 
    ##### Executar com Maven 
    ><code>mvn spring-boot:run</code>
-   ><code>mvn spring-boot:run</code>
 
-   ##### Executar com Jar <code> java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
+   ##### Executar com Jar 
+   ><code>java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
 
-   ##### Executar com Docker image  <code> java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
+   ##### Executar com Docker image
+   ><code>sudo docker pull andreiaar/public:list_movies</code> <code>sudo docker run -p 9098 andreiaar/public:list_movies</code>
 
    ##### Executar testes integração <code> mvn test</code>
 
