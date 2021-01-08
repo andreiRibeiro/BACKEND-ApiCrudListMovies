@@ -10,7 +10,8 @@ Os dados são salvos em memória no banco H2, e podem ser acessados pela url htt
 
 #### 1) Formas de execução do sistema e testes de integração.
 
-   ##### Executar com Maven <code> mvn spring-boot:run</code>
+   ##### Executar com Maven 
+   > mvn spring-boot:run
 
    ##### Executar com Jar <code> java -jar listMovies-0.0.1-SNAPSHOT.jar listMovies.csv</code>
 
