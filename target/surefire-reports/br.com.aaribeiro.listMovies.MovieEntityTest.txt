@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.aaribeiro.listMovies.MovieEntityTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.653 s - in br.com.aaribeiro.listMovies.MovieEntityTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.514 s - in br.com.aaribeiro.listMovies.MovieEntityTest
