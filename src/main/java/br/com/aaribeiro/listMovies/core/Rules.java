@@ -78,7 +78,8 @@ public class Rules {
                 String producer = entry.getKey();
                 List<MovieEntity> movies = entry.getValue();
                 List<Integer> years = movies
-                        .stream().map(year -> year.getYear()).collect(Collectors.toList())
+                        .stream().filter(movie -> movie.getWinner().equals("yes")).collect(Collectors.toList())
+                        .stream().map(movie -> movie.getYear()).collect(Collectors.toList())
                         .stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 
                 if (this.mustHaveAtLeastTwoDates(years)) {
@@ -128,8 +129,7 @@ public class Rules {
                     int data1 = years.get(i);
                     int data2 = years.get(i + 1);
                     datas.put(data1 + ";" + data2, data1 - data2);
-                } catch (IndexOutOfBoundsException e) {
-                }
+                } catch (IndexOutOfBoundsException e) {}
             }
         } catch (Exception e){
             log.error("Error get calculated ranges: {}", e.getMessage());
