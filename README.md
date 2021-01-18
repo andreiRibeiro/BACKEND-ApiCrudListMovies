@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo realizar o CRUD de filmes e obter o(s) produtor(s) com maior intervalo entre dois prêmios consecutivos, e o que obteve dois prêmios mais rápido.
 
-O serviço é executado com SpringBoot e conta com endpoint's RestFull, testes de integração com MockMvc, persistência de dados com JPA, e documentação de api com Swagger.
+O serviço é executado com Spring Boot e conta com endpoint's RestFull, testes de integração com MockMvc, persistência de dados com JPA, e documentação de api com Swagger.
 
 Os dados são salvos em memória no banco H2, e podem ser acessados pela url http://localhost:9098/h2-console/
 
